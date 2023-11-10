@@ -44,4 +44,4 @@ def preprocess(data):
             period.append(str(hour) + "-" + str(hour + 1))
     df['period'] = period
 
-    return df
+    return df[3:]
